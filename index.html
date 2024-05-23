@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <div class="conteiner">
+      <h2>Calculadora</h2>
+      <div class="tela"></div>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <button onclick="limpar()">C</button>
+            </td>
+            <td>
+              <button onclick="inserir('%')">%</button>
+            </td>
+            <td>
+              <button onclick="inserir('/')"><i class="fa-solid fa-divide"></i></button>
+            </td>
+            <td>
+              <button onclick="inserir('+')">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="inserir(7)">7</button>
+            </td>
+            <td>
+              <button onclick="inserir(8)">8</button>
+            </td>
+            <td>
+              <button onclick="inserir(9)">9</button>
+            </td>
+            <td>
+              <button onclick="inserir('*')">x</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="inserir(6)">6</button>
+            </td>
+            <td>
+              <button onclick="inserir(5)">5</button>
+            </td>
+            <td>
+              <button onclick="inserir(4)">4</button>
+            </td>
+            <td>
+              <button onclick="inserir('-')">-</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="inserir(3)">3</button>
+            </td>
+            <td>
+              <button onclick="inserir(2)">2</button>
+            </td>
+            <td>
+              <button onclick="inserir(1)">1</button>
+            </td>
+            <td rowspan="2">
+              <button onclick="somar()" style="background-color: rgb(240, 157, 2);">=</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button onclick="inserir(0)">0</button>
+            </td>
+            <td>
+              <button onclick="inserir('.')">.</button>
+            </td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+ background-color: rgb(219, 219, 219);
+}
+.conteiner{
+  width: 290px;
+  height: 420px;
+  background-color: rgba(0, 0, 0, 0.945);
+  color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center ;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 4px 4px 2px 1px rgb(204, 204, 204) ;
+}
+.conteiner h2{
+  font-size: 2rem;
+}
+.tela{
+  width: 90%;
+  height: 60px; 
+  background-color: white;
+  margin-top: 10px;
+  text-align: end;
+  color: black;
+  font-size: 3rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+overflow: hidden;
+}
+table{
+  width: 90%;
+  height: 80%;
+  margin: 10px;
+}
+table td{
+width: 50px;
+height: 50px;
+}
+table button{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid rgb(15, 15, 15);
+background-color: rgb(219, 219, 219);
+font-size: 1.5rem;
+transition: 0.2s;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table button:hover{
+  background-color: rgb(240, 157, 2);
+}
